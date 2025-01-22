@@ -1,0 +1,238 @@
+/* Modal */
+
+/* Form basket */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #7449bb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a067fc;
+}
+/* Modal styles */
+
+.modwin {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modwin-content {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modwin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modwin-header h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.modwin-close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modwin-body {
+  margin-top: 6px;
+}
+
+.modwin-form-group {
+  margin-bottom: 6px;
+}
+
+.modwin-form-group label {
+  display: block;
+  font-size: 12px;
+}
+
+.modwin-form-group input {
+  width: 96%;
+  padding: 6px;
+  border: 1px solid #aea4be;
+  border-radius: 5px;
+}
+
+.select {
+  font-size: 12px;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.cart h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.cart-item span {
+  font-size: 14px;
+}
+
+.cart-item button {
+  color: #000;
+  padding: 2px 12px;
+  margin-left: 30px;
+  margin-bottom: 2px;
+  border: 1px solid #7449bb;
+  border-radius: 6px;
+}
+
+#deliverySummary,
+#totalSummary {
+  font-size: 13px;
+}
+
+#deliverySummary {
+  margin-bottom: 6px;
+}
+
+.modwin-form-group button {
+  padding: 8px 20px;
+  background-color: #7449bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modwin-form-group button:hover {
+  background-color: #c974fa;
+}
+
+.button:hover {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Form reg */
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #7449bb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 6px;
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  background-color: #c974fa;
+  color: #000;
+}
+
+/* Modal styles */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 6px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aea4be;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 40%;
+  padding: 10px;
+  background-color: #7449bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #c974fa;
+}
+
+.button {
+  color: #ca7ce9;
+  font-weight: 700;
+  padding: 18px 30px;
+  border: 1px solid #7449bb;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.button:hover {
+  color: #fff;
+  transition: all 0.3s ease;
+}
