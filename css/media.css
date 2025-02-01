@@ -329,6 +329,15 @@
     min-height: 191px;
     width: 100%;
   }
+  .accordeon__triger-text  {
+    max-width: 610px;
+    margin-right: 20px;
+ 
+  }
+  .accordeon__icon {
+    margin-right: 20px;
+ 
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -433,6 +442,10 @@
   .accordeon {
     margin-bottom: 48px;
   }
+  .accordeon__icon {
+    margin-right: 10px;
+ 
+  }
   .accordeon__item:last-child::after {
     display: none;
   }
@@ -528,10 +541,13 @@
     margin: 0;
   }
   .accordeon__item {
-    padding: 0 50px 0 0;
+    padding: 0 0px 0 0;
+  }
+  .accordeon__icon {
+    margin-right: 4px;
   }
   .accordeon__triger-text {
-    margin-right: 0;
+    margin-right: 10px;
   }
   .accordeon__content {
     padding-right: 2%;
